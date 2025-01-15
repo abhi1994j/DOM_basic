@@ -1,0 +1,13 @@
+const doc = document;
+doc.title="DOM Manipulation Example";
+const container = document.querySelector(".container");
+console.log(container);
+container.style.height = '300px';
+container.style.width = '300px';
+container.style.border ='2px solid black';
+container.style.fontSize = '32px';
+container.style.margin = '3rem';
+container.style.color = 'black';
+container.style.backgroundColor = 'aqua';
+container.style.textAlign = 'center';
+container.style.borderRadius = '5px';
