@@ -1,6 +1,6 @@
 const doc = document;
 doc.title="DOM Manipulation Example";
-const container = document.querySelector(".container");
+const container = document.getElementById("container");
 console.log(container);
 container.style.height = '300px';
 container.style.width = '300px';
@@ -11,3 +11,4 @@ container.style.color = 'black';
 container.style.backgroundColor = 'aqua';
 container.style.textAlign = 'center';
 container.style.borderRadius = '5px';
+container.style.padding = '15px';
